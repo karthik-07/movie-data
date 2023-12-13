@@ -70,7 +70,7 @@ class Home extends Component {
       .then((result) => result.json())
       .then((result) => {
         console.log(result);
-        console.log(this.state.movies)
+        
         this.setState({
           movies: [...this.state.movies, ...result.results],
           heroImage: this.state.heroImage || result.results[0],

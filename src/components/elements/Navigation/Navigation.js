@@ -6,7 +6,7 @@ const Navigation = (props) => {
   return (
     <div className="rmdb-navigation">
       <div className="rmdb-navigation-content">
-        <Link to="/">
+        <Link to="/moviedata">
           <p>Home</p>
         </Link>
         <p>{props.movie}</p>
