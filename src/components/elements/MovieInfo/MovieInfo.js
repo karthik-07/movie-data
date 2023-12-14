@@ -27,9 +27,9 @@ const MovieInfo = (props) => {
         </div>
         <div className="rmdb-movieinfo-text">
           <h1>{props.movie.title}</h1>
-          <h3>PLOT</h3>
+          <h3>Plot</h3>
           <h3>{props.movie.overview}</h3>
-          <h3>IMDB RATING</h3>
+          <h3>IMDB Rating</h3>
           <div className="rmdb-rating">
             <meter
               min="0"
